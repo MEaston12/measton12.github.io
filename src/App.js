@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Nav from './components/nav';
 import Footer from './components/footer';
@@ -11,19 +11,17 @@ import Resume from './pages/resume';
 import './sass/index.sass';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Nav />
-      <Switch>
-        <Route path='/about'><About /></Route>
-        <Route path='/portfolio'><Portfolio /></Route>
-        <Route path='/contact'><Contact /></Route>
-        <Route path='/resume'><Resume /></Route>
-        <Route path='/'><About /></Route>
-      </Switch>
-      <Footer />
-    </BrowserRouter>
-  );
+  return (<>
+    <Nav />
+    <Switch>
+      <Route path='/about'><About /></Route>
+      <Route path='/portfolio'><Portfolio /></Route>
+      <Route path='/contact'><Contact /></Route>
+      <Route path='/resume'><Resume /></Route>
+      <Route path='/'><About /></Route>
+    </Switch>
+    <Footer />
+  </>);
 }
 
 export default App;
