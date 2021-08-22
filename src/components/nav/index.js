@@ -12,10 +12,10 @@ const Nav = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Bav className="me-auto">
-            <Bav.Link as={Link} to="/about" className={(path === '/about' || path === '/') && 'active'}>About</Bav.Link>
-            <Bav.Link as={Link} to="/contact" className={path === '/contact' && 'active'}>Contact</Bav.Link>
-            <Bav.Link as={Link} to="/portfolio" className={path === '/portfolio' && 'active'}>Portfolio</Bav.Link>
-            <Bav.Link as={Link} to="/resume" className={path === '/resume' && 'active'}>Resume</Bav.Link>
+            <Bav.Link as={Link} to="/about" className={(path === '/#/about' || path === '/' || path === '/#/') && 'active'}>About</Bav.Link>
+            <Bav.Link as={Link} to="/contact" className={path === '/#/contact' && 'active'}>Contact</Bav.Link>
+            <Bav.Link as={Link} to="/portfolio" className={path === '/#/portfolio' && 'active'}>Portfolio</Bav.Link>
+            <Bav.Link as={Link} to="/resume" className={path === '/#/resume' && 'active'}>Resume</Bav.Link>
           </Bav>
         </Navbar.Collapse>
       </Container>
