@@ -5,6 +5,7 @@
 ## Description
 
 This site is intended to give a demonstration of Malcolm Easton's full stack web development experience.
+![image](https://user-images.githubusercontent.com/68579829/130383311-d267138d-5c0d-43f4-b9de-95c72aa96b6c.png)
 
 ## Table of Contents
 
@@ -23,7 +24,7 @@ This site is intended to give a demonstration of Malcolm Easton's full stack web
 
 ## Usage
 
-Just view the website at [measton12.github.io](measton12.github.io)
+Just view the website at [https://measton12.github.io/](https://measton12.github.io/)
 
 ## License
 
