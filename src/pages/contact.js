@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 
 
@@ -35,6 +36,7 @@ const Contact = () => {
             <Form.Control onBlur={handleWarn} as='textarea' rows={8} name='message' placeholder='What would you like to say?' />
             {warn.message && <Form.Text className='text-danger'>You must enter a message.</Form.Text>}
           </Form.Group>
+          <Button variant='primary' type='submit'>Submit</Button>
         </Form>
       </Col>
   </Container>

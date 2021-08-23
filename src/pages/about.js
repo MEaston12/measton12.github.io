@@ -12,7 +12,7 @@ const About = () => (
         <h1>About Me</h1>
         <p>
           Hello there, my name is Malcolm Easton and welcome to my portfolio! You should be able
-          to use the Navbar above to navigate around, and the Footer below should contain some links to my social medias and whatnot.
+          to use the navbar above to navigate around, and the footer below should contain some links to my social medias and whatnot.
         </p>
         <h2>Coding History</h2>
         <p>
@@ -22,9 +22,9 @@ const About = () => (
           take fourth place nationally, with our coding actually being uploaded to and run on the International Space Station.
         </p>
         <p>
-          After that, I went to Utah State University to study Electrical Engineering with a side interest in Computer Science and Computer Engineering.
-          This is where I picked up my skills in C++ and my general understanding of computer systems.  These were some of my favorite courses
-          in that time:
+          After that, I went to Utah State University on a Presidential Scholarship to study Electrical Engineering with a side interest in Computer 
+          Science and Computer Engineering. This is where I picked up my skills in C++ and my general understanding of computer systems.  These were
+          some of my favorite courses in that time:
         </p>
         <ul>
           <li>Data Structures: Implementing memory structures like linked lists, binary trees, or hashes.</li>
@@ -48,12 +48,12 @@ const About = () => (
         <p>
           Having had my first taste of web app development, I decided I needed more, and enrolled in the Univesity of Utah's Coding Bootcamp program.
           I thoroughly enjoyed my time in the course and discovered how awesome React is.  I've learned a ton of skills that are relevant to Full-Stack
-          Web Dev.
+          Web Development.
         </p>
         <p>
           I also started and own stake in a profitable independent web app LLC, Tupperbox LLC. That's been a fun venture to be involved in, though the majority of 
-          the coding has been done by my partner, he and I have pair programmed quite a bit, I've helped him in finding solutions, and I've been handling much of 
-          the business, organization, planning, and legal aspects of the business.  Now that I've completed the Coding Bootcamp I look forward to contributing more 
+          the coding has been done by my partner, I have been pair programming with him to work out difficult problems. I've helped him in finding solutions, and 
+          I've been handling much of the business, organization, planning, and legal aspects of the company.  Now that I've completed the University of Utah's Coding Bootcamp I look forward to contributing more 
           directly on the project.
         </p>
       </Col>
