@@ -1,7 +1,6 @@
 import Col from 'react-bootstrap/Col';
 
 const Project = ({ project }) => {
-  console.log(project);
   return (
     <Col xs={12} md={6}>
       <div className="project-entry" id={project.id} style={{backgroundImage: `url(${project.imgLink})`}}>
